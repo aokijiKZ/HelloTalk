@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727626017298",
+    "project_id": "hellotalk-c02ef",
+    "storage_bucket": "hellotalk-c02ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727626017298:android:ec34b580153c936c56c6cb",
+        "android_client_info": {
+          "package_name": "com.example.hellotalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727626017298-p4410ac4vpj37gqcpo7fjap06ko2nq7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBeqkLbN4yLiX3EdkW15_p3MyoiHwlUiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727626017298-p4410ac4vpj37gqcpo7fjap06ko2nq7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

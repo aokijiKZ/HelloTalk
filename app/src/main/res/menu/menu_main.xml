@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_logout"
+        android:title="Logout"/>
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <!--Show this option in ChatsFragment and hide from others -->
+    <item android:id="@+id/action_create_group"
+        android:title="Create Group"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_creategroup">
+
+    </item>
+    <item
+        android:id="@+id/action_add_participant"
+        android:icon="@drawable/ic_addperson_whi"
+        android:title="Add Group Participant"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/action_groupinfo"
+        android:icon="@drawable/ic_info_white"
+        android:title="Group Info"
+        app:showAsAction="always"/>
+
+
+
+</menu>

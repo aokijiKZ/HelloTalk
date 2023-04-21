@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+
+    android:padding="20dp"
+    tools:context=".GroupCreateActivity">
+
+    <!--ImageView: Group Icon image (Pick/Display) -->
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/groupIconIv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_group_vilolet">
+
+    </com.blogspot.atifsoftwares.circularimageview.CircularImageView>
+
+    <!--EditText: Group Title -->
+    <EditText
+        android:id="@+id/groupTitleEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/groupIconIv"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Group Title">
+    </EditText>
+
+    <!--EditText: Group Description -->
+    <EditText
+        android:id="@+id/groupDescriptionEt"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:inputType="textMultiLine|textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/groupTitleEt"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="Group Description">
+    </EditText>
+
+    <!--FAB: Create Group -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/updateGroupBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_done_white"
+        app:backgroundTint="@color/purple_200">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>
